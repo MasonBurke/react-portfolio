@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
 <Route exact path="/contact" component={Contact} />
 </Switch>
 </Router>
+<Footer />
 
     </div>
   );

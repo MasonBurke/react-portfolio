@@ -8,7 +8,7 @@ function Navbar1() {
 <Navbar bg="dark" variant="dark" expand="lg">
   <Navbar.Brand href="#home">Mason Burke's Portfolio</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
+  <Navbar.Collapse id="basic-navbar-nav" >
     <Nav className="mr-auto">
       <Nav.Link href="home">Home</Nav.Link>
       <Nav.Link href="projects">Projects</Nav.Link>
