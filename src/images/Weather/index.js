@@ -3,10 +3,9 @@ import Weather from "./Weather.png"
 
 const styles =  {
     img:{
-        height: 255,
-        width: 415,
-        float:'right',
-        position: 'absolute', right: 15
+        height: 250,
+        width: 400,
+        margin: 'auto'
     }
     };
     

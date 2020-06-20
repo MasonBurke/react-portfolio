@@ -9,14 +9,29 @@ function Projects() {
     return(
 <>
 <Container>
-<Row> 
-<Project3  /> <p style={{position: 'absolute', right: 0}}> sdfgsdfgsdfgsd </p>
+<br/>
+<Row>
+<Project3  /> 
 </Row>
-<hr/>
+<br/>
+
+<p style={{wordWrap:' break-word' ,flex:1, justifyContent: 'center', alignItems: 'center'}}> 
+For this project we wanted to create a way for users to find cheap flights, read postings from
+ other members on how they liked the place and to find out about how much they spent. You can also log your own trips here.  </p>
+ <p> <a href='#'> The Code </a></p>
+ <p> <a href="#"> Github </a> </p><hr/>
 
 <Row>
-<WeatherApp /> <Col><p style={{position: 'absolute', left: 15}}> heyasdfsdfgbdkjhfgbdskjfhgbdskfjhg </p></Col>
+<WeatherApp />
 </Row>
+
+<br/>
+<p style={{wordWrap:' break-word' ,flex:1, justifyContent: 'center', alignItems: 'center'}}> 
+This project used a weather API to pull weather updates from any area you search </p>
+<p> <a href='#'> The Code </a></p>
+<p> <a href="#"> Github </a> </p>
+
+<hr/>
 </Container>
 
 

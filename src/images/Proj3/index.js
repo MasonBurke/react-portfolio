@@ -1,18 +1,21 @@
 import React from "react"
 import Proj3 from "./Proj3.png"
 
+
 const styles =  {
     img:{
-        height: 255,
-        width: 415,
-        
+        height: 250,
+        width: 400,
+        margin: 'auto'
     }
     };
     
     function Project3() {
         return(
-    
+  
+
     <img style={styles.img} src={Proj3}/>
+    
     
         )
     }
