@@ -35,7 +35,7 @@ This project used a weather API to pull weather updates from any area you search
 </Container>
 
 
-
+<br/>
 </>
     )
 }

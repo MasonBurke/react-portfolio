@@ -4,6 +4,7 @@ import  {Button} from 'react-bootstrap'
 
 const styles = {
     footer:{
+    
         position: 'fixed',
         left: 0,
         bottom: 0,
@@ -11,10 +12,11 @@ const styles = {
         backgroundColor: '#BF955E',
         color: 'white',
         fontFamily:'Verdana-Italic',
-        fontSize:15
+        fontSize:15,
+       
     },
     p:{
-        marginTop:5,
+        // marginTop:5,
         marginBottom:3
     }
 }
